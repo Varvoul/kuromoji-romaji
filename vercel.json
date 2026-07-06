@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "api/convert.js": {
+      "includeFiles": "node_modules/kuromoji/dict/**/*"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/convert",
+      "destination": "/api/convert"
+    },
+    {
+      "source": "/",
+      "destination": "/api/convert"
+    }
+  ]
+}

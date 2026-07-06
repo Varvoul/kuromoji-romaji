@@ -1,0 +1,13 @@
+{
+  "name": "kuromoji-romaji-api",
+  "version": "1.0.0",
+  "description": "Japanese to Romaji conversion API using kuromoji",
+  "main": "api/convert.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "kuromoji": "^0.1.2"
+  }
+}
